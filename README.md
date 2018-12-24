@@ -50,18 +50,28 @@ to proof that the GRU outperforms the LSTM in this classification task.
 In case of using our code, please do not forget to cite both our code:
 
 @article{elsayed2018deep,
+
   title={Deep Gated Recurrent and Convolutional Network Hybrid Model for Univariate Time Series Classification},
+  
   author={Elsayed, Nelly and Maida, Anthony S and Bayoumi, Magdy},
+  
   journal={arXiv preprint arXiv:1812.07683},
+  
   year={2018}
+  
 }
 
 
 and the code that we used to create our code:
 
 @misc{Karim_Majumdar2017,
+
 Author = {Fazle Karim and Somshubra Majumdar and Houshang Darabi and Shun Chen},
+
 Title = {LSTM Fully Convolutional Networks for Time Series Classification},
+
 Year = {2017},
+
 Eprint = {arXiv:1709.05206},
+
 }
