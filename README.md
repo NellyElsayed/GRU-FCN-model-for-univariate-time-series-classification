@@ -2,8 +2,7 @@
 GRU-FCN model for univariate time series classification
 
 This repository contains the code used in implementing the paper:
-## Note
-Soon I am going to add the total code for each UCR time series datasets. Keep checking my page for the new full code.
+
 ## Deep Gated Recurrent and Convolutional Network Hybrid Model for Univariate Time Series Classification.
 
 Our paper **"Deep Gated Recurrent and Convolutional Network Hybrid Model for Univariate Time Series Classification"** 
@@ -14,6 +13,9 @@ https://arxiv.org/abs/1812.07683
 The idea of our GRU-FCN paper is inspired by Karim et al. "LSTM Fully Convolutional Networks for Time Series Classification" paper which
 code is found in the following link: https://github.com/titu1994/LSTM-FCN
 But we replaced the LSTM by a Gated Recurrent Unit (GRU) which produces higher accuracy in different UCR univariate datasets classification.
+
+## Note
+Soon I am going to add the total code for each UCR time series datasets. Keep checking my page for the new full code.
 
 ## How to run the code:
 ### Dataset:
