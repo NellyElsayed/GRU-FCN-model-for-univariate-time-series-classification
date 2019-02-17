@@ -1,9 +1,6 @@
 # GRU-FCN-model-for-univariate-time-series-classification
 GRU-FCN model for univariate time series classification
 
-## Important Note
-Soon I am going to add the total code for each UCR time series datasets as individual file. The code will contain. Please keep checking my page for the new full code.
-
 
 This repository contains the code used in implementing the paper:
 
@@ -16,7 +13,7 @@ https://arxiv.org/abs/1812.07683
 
 The idea of our GRU-FCN paper is inspired by Karim et al. "LSTM Fully Convolutional Networks for Time Series Classification" paper which
 code is found in the following link: https://github.com/titu1994/LSTM-FCN
-But we replaced the LSTM by a Gated Recurrent Unit (GRU) which produces higher accuracy in different UCR univariate datasets classification.
+But we replaced the LSTM by a Gated Recurrent Unit (GRU) which produces higher accuracy in different UCR univariate datasets classification. Our goal was mainly to compare the performance of GRU and LSTM within the same entire model structure in time series classification problem.
 
 ## How to run the code:
 ### Dataset:
@@ -29,25 +26,18 @@ After installing all the datasets, unzip the folders and put all them in one fol
 Note: Please do not forget to cite the dataset in case of using it.
 
 ### Code:
-Our code is exactly the same as 
-The file that you will find is Karim et al. which is mentioned before except that we used the GRU instead of the LSTM other code lines 
-to show the results.
+Our code is has parts that are exactly the same as in Karim et al. which is mentioned before except that we used the GRU instead of the LSTM other code lines to show the results.
 
-We added a universal code, to change the dataset you want to use
-* Please read the dataset guide file.
-* Change the value of the variable **DATASET_INDEX** which is on line 16 of our **GRU_FCN.py**
-accrding to the dataset you want using the corresponding value from **dataset_guide.txt** file.
+We added a file for each dataset. We numbered the datasets from 0-84 corresponding to their order in the UCR benchmark.
+In addition, we modified the constants file to handle this ordering stuff.
 
 # Supporting Code:
-The other supporting code is exactly the code which implemented by Karim et al. in the following 
+The other supporting code is the code which implemented by Karim et al. in the following 
 link: https://github.com/titu1994/LSTM-FCN
 
 
-**Therfore, download their code and run our file directly. You will find the GRU-FCN code results on different datasets.**
-
 #### Note 1:
-We intuitively did not make much changes to to LSTM-FCN code to make it more easy for you to test our GRU-FCN model and the LSTM based model 
-to proof that the GRU outperforms the LSTM in this classification task.
+We intuitively did not make much changes to the LSTM-FCN code to make it easier for you to test our GRU-FCN model and the LSTM based model to proof that the GRU outperforms the LSTM in this classification task.
 
 
 #### Note2:
