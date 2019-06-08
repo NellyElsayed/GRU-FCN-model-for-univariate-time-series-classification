@@ -7,9 +7,16 @@ This repository contains the code used in implementing the paper:
 ## Deep Gated Recurrent and Convolutional Network Hybrid Model for Univariate Time Series Classification.
 
 Our paper **"Deep Gated Recurrent and Convolutional Network Hybrid Model for Univariate Time Series Classification"** 
+
 Which you can find on arxiv:
 
 https://arxiv.org/abs/1812.07683
+
+It also is published in the International Journal of Advanced Computer Science and Applications(IJACSA), Volume 10 Issue 5, 2019 which you can find in the following link:
+
+https://thesai.org/Publications/ViewPaper?Volume=10&Issue=5&Code=IJACSA&SerialNo=82
+
+Digital Object Identifier (DOI) : 10.14569/IJACSA.2019.0100582
 
 The idea of our GRU-FCN paper is inspired by Karim et al. "LSTM Fully Convolutional Networks for Time Series Classification" paper which
 code is found in the following link: https://github.com/titu1994/LSTM-FCN
